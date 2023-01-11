@@ -1,0 +1,75 @@
+.body{
+    background-color: hsl(216, 12%, 8%);
+    color:hsl(0, 0%, 100%);
+
+}
+.color{
+    color:hsl(0, 0%, 100%);
+}
+@font-face {
+    font-family: 'Overpass';
+    src: url(https://fonts.google.com/specimen/Overpass);
+}
+
+.quadradoPrincipal{
+    background-color: hsl(213, 19%, 18%);
+    position: relative;
+    width: 35%;
+    height: 35%;
+    margin: auto;
+    border-radius: 20px;
+    font-family: Overpass;
+    vertical-align: middle;
+
+}
+
+.tabela{
+    width: 90%;
+    height: 90%;
+    padding-bottom: 10%;
+    padding-left: 10%;
+    padding-top: 10%;
+
+}
+
+
+.pergunta {
+    text-align: left;
+    font-weight: 700;
+}
+
+.perguntaDestrinchada{
+    text-align: left;
+    font-weight: 400;    
+}
+.opcao{
+    background-color: hsl(217, 12%, 63%);
+    border-radius: 50%;
+    width: 1cm;
+    height: 1cm;
+    text-align: center;
+    font-weight: 400;
+
+
+}
+.botao{
+    background-color: hsl(25, 97%, 53%);
+    position: relative;
+    width: 5cm;
+    height: 1cm;
+    margin: auto;
+    border-radius: 20px;
+    font-family: Overpass;
+    text-align: center; 
+
+}
+.resultado{
+    background-color: hsl(217, 12%, 63%);
+    position: relative;
+    width: 8cm;
+    height: 1cm;
+    margin: auto;
+    border-radius: 20px;
+    font-family: Overpass;
+    text-align: center;   
+}
